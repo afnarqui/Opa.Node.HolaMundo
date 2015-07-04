@@ -1,0 +1,17 @@
+{
+  "name": "mean",
+  "version": "0.0.1",
+  "description": "api mean",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.9.8",
+    "serve-favicon": "^2.3.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrés naranjo <afnarqui@hotmail.com>",
+  "license": "ISC"
+}
