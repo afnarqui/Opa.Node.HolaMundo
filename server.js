@@ -8,7 +8,9 @@ var app = new expressServer();
 
 var server = http.createServer(app.expressServer);
 
-server.listen(config.port);
+server.listen(config.port,function(){
+	console.log('servidor ejecutandose por el puerto: ' + config.port);
+});
 
 
 
