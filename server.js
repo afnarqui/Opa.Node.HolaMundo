@@ -8,7 +8,7 @@ var app = new expressServer();
 
 var server = http.createServer(app.expressServer);
 
-server.listen(5000);
+server.listen(config.port);
 
 
 
